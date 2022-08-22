@@ -1,0 +1,125 @@
+//style 1.css
+
+header {
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 35px;
+    font-style: oblique;
+}
+
+header h1 {
+    font-style: normal;
+    font-size: 2.75em;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    color:cyan;
+    background-color:lightblue;
+    padding: 10px 5px 1px 5px;
+}
+
+nav a:hover {
+    background-color: lightcyan;
+    text-decoration: underline;
+}
+
+@media (max-width: 520px) {
+    nav {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+}
+
+/* Main */
+
+
+.container {
+    max-width: 600px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px auto;
+    color:rgb(39, 43, 43);
+}
+
+.center {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+h1,.center {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+hr {
+    margin-top: 0;    
+}
+
+.smHead {
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+    padding: 5px;
+}
+
+i {
+    margin-top: 15px;
+}
+
+
+
+.top {
+    border: 1px solid rgb(140, 249, 253);    
+    color:rgb(140, 249, 253);
+}
+
+.top hr {
+    border-top: 0.5px solid rgb(119, 214, 221);
+}
+
+.top .smHead {
+    background-color: rgb(85, 210, 226);
+}
+
+
+.middle {
+    border: 1px solid orange;
+    color: orange;
+}
+.middle hr {
+    border-top: 0.5px solid orange;
+}
+
+.middle .smHead {
+    background-color:blanchedalmond;
+}
+
+
+
+.bottom {
+    border: 1px solid palevioletred;
+    color: palevioletred;
+}
+
+.bottom hr {
+    border-top: 0.5px solid rgb(255, 204, 212);
+}
+
+.bottom .smHead {
+    background-color: lightpink;
+}
+
